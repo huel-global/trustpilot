@@ -73,7 +73,6 @@ class Authorize extends AbstractApi{
      */
     public function redirectToAuth($apiKey, $redirect_uri = '')
     {        
-       $data = array('code' => $code, 'redirect_uri' => $redirect_uri);
        header('Location: https://authenticate.trustpilot.com?client_id='.$apiKey.'&redirect_uri='.urlencode($redirect_uri).'&response_type=code');
        exit;
     }
