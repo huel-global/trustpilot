@@ -1,11 +1,15 @@
 {
-    "name": "graphem/trustpilot",
+    "name": "huel-global/trustpilot",
     "description": "Simple PHP library for TrustPilot API",
     "license": "MIT",
     "authors": [
         {
             "name": "Graphem Solutions",
             "email": "info@graphem.ca"
+        },
+        {
+            "name": "Huel Engineering Team",
+            "email": "devteam@huel.com"
         }
     ],
     "require": {
